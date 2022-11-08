@@ -3,4 +3,5 @@ An address book application created using FastAPI framework where users can crea
 
 # Commands to execute:
 pip install -r requirements.txt
+
 uvicorn main:app --reload
