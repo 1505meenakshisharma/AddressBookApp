@@ -33,7 +33,7 @@ def validate_coordinates(latitude,longitude):
         if msg:
             msg += " and Please enter valid longitude (-180 to 180 degree)"
         else:
-            msg = "Please enter valid longitude (-180 to 180 degree)"
+            msg += "Please enter valid longitude (-180 to 180 degree)"
     return msg
 
 def filter_valid_address(lat1, long1, all_address, distance):
