@@ -58,7 +58,7 @@ def filter_valid_address(lat1, long1, all_address, distance):
         
         # Radius of earth in kilometers
         r = 6371
-        curr_dist = floor(c * r)
+        curr_dist = c * r
         
         # calculate the result
         if curr_dist <= distance:
